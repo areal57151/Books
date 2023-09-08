@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ body{
+  background-image: url(biblio.jpg) ; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  width: 500px;
+  margin-left: 380px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(84, 209, 111, 0.4);
+}
+h1,h4{
+  color:red;
+  text-align: center;
+  font-weight: bolder;
+}
+h3{
+  color: #F94C10;
+  text-align: center;
+  font-weight: bolder;
+
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  display: flex;
+  justify-content:space-around;
 }
+button {
+  background-color: rgba(40, 94, 4, 0.5);
+  color: red;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: 2px solid rgb(14, 122, 65);
+  backdrop-filter: blur(15px);
+  border-radius: 50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
