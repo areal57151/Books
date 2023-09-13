@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   
   const [book, setBook] =  useState(0);
-  const {id, name, description, icon} = data[book];
+  const {name, description, icon} = data[book];
 
   const perviousBook =() => {
       setBook((book => {
